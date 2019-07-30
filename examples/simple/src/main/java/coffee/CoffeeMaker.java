@@ -21,7 +21,7 @@ class CoffeeMaker {
   // *       {@code @Inject}-annotated constructor. Classes that have fields
   // *       injected may omit the {@code @Inject} annotation if they have a public
   // *       no-arguments constructor.
-  @Inject
-  public CoffeeMaker(){
-  }
+//  @Inject
+//  public CoffeeMaker(){
+//  }
 }
