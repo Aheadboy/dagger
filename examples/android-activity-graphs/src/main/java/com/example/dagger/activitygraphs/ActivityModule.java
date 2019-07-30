@@ -29,10 +29,7 @@ import javax.inject.Singleton;
  * ever exist inside of that activity.
  */
 @Module(
-    injects = {
-        HomeActivity.class,
-        HomeFragment.class
-    },
+    injects = {HomeActivity.class, HomeFragment.class},
     addsTo = AndroidModule.class,
     library = true
 )
